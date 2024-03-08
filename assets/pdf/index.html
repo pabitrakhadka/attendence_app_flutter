@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: linear-gradient(to right , blue, yellow);
+        }
+        .outer_page{
+            display: flex;
+            justify-content: center;
+            /* border: red solid 3px; */
+            align-items: center;
+            width: 100%;
+            height: 50vh;
+            background: transparent;
+            /* background-color: lightgoldenrodyellow; */
+        }
+        .rester_page{
+            /* width: 30rem; */
+            /* border: black solid 1px; */
+            padding: 1rem;
+            background-color: white;
+        }
+        .rester_page form{
+/* padding: 1rem; */
+width: 20rem;
+        }
+        .rester_page form .input_field input{
+            display: block;
+            width: 100%;
+            margin-top: 0.5rem;
+            margin-left: 0rem;
+            height: 1.2rem;
+        }
+        .button button{
+            color: white;
+            font-size: larger;
+            background-color: green;
+            width: 100%;
+            border: none;
+            padding: 0.5rem;
+            cursor: pointer;
+            margin-top: 0.5rem;
+        }
+        a{
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+   <div class="outer_page">
+       <div class="rester_page">
+        <h1 style="text-align: center; margin: 0;">Login </h1>
+        <form action="">
+            <div class="input_field">
+                <label for="name">Name or Phone</label>
+                <input type="text" name="name">
+            </div>
+            <div class="input_field">
+                <label for="password">Password</label>
+                <input type="password" name="password">
+            </div>
+
+        </form>
+        <a href="">forgot password</a>
+        <div class="button">
+            <button type="submit">Login</button>
+        </div>
+    </div>
+   </div>
+</body>
+</html>
